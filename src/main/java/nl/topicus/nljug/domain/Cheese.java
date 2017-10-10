@@ -49,4 +49,9 @@ public class Cheese implements Serializable {
 		}
 		return false;
 	}
+
+	@Override
+	public int hashCode() {
+		return name.length();
+	}
 }
