@@ -13,13 +13,13 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import nl.topicus.nljug.CheesrDeployment;
 import nl.topicus.nljug.Camera;
+import nl.topicus.nljug.CheesrDeployment;
 import nl.topicus.nljug.pageobjects.GIndex;
 
 // tag::simple[]
 @RunWith(Arquillian.class)
-public class IndexTest { 
+public class IndexTest {
 // end::simple[]
 	// tag::deployment[]
 	@Deployment(testable = false)
